@@ -17,3 +17,14 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+prova1 = int(input("Digite a primeira nota: "))
+prova2 = int(input("Digite a segunda nota: "))
+soma = prova1 + prova2
+media = soma / 2
+
+if media >= 5:
+    passou = True
+    print(f"Aluno passou? {passou}")
+else:
+    passou = False
+    print(f"Aluno passou? {passou}")

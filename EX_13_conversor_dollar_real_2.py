@@ -25,3 +25,17 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("1 - Dollar para Real")
+print("2 - Real para Dollar")
+opcao = int(input("Escolha uma opção: "))
+
+if opcao == 1:
+    dollar_atual = float(input("Digite a cotação do dollar atualmente: "))
+    qtd_dollar = float(input("Digite a quantidade de dollar: "))
+    emReal = qtd_dollar * dollar_atual
+    print(f"o valor em reais é: {emReal}")
+elif opcao == 2:
+    dollar_atual = float(input("Digite a cotação do dollar atualmente: "))
+    qtd_real = float(input("Digite a quantidade de reais: "))
+    emDolar = qtd_real / dollar_atual
+    print(f"o valor em reais é: {emDolar}")

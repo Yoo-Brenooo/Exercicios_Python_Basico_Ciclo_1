@@ -8,3 +8,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+x = int(input("Digite o primeiro numero: "))
+y = int(input("Digite o segundo numero: "))
+resultado = x + y
+
+print(f"A soma desses numeros é: {resultado}")

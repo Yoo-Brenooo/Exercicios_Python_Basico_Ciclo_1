@@ -15,3 +15,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+senha_real = "1234"
+senha = input("Digite uma senha: ")
+
+if senha_real != senha:
+    print("Senha incorreta!")
+else:
+    print("Senha correta")

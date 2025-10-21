@@ -9,5 +9,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+dollar_atual = float(input("Digite a cotação do dollar atualmente: "))
+qtd_atual = float(input("Digite a cotação do dollar atualmente: "))
+emReal = qtd_atual * dollar_atual
 
-
+print(f"o valor em reais é: {emReal}")

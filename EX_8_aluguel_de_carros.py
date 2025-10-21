@@ -10,3 +10,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+dias = int(input("Digite a quantidade de dias: "))
+km = float(input("Digite o km total rodado: "))
+
+total_dias = dias * 60
+total_km = km * 0.15
+valor_total = total_km + total_dias 
+
+print(f"Você andou {km} por {dias} dias, então o preço a pagar é R${valor_total}.")

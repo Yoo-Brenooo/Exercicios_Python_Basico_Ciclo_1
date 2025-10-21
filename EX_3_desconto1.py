@@ -12,3 +12,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+produto = float(input("Digite o valor do produto: "))
+porcentagem = float(input("Digite o valor do desconto: "))
+desconto = produto * (porcentagem / 100) 
+produto = produto - desconto
+
+print(f"O valor final do produto foi: {produto}")
+print(f"O desconto do produto foi: {desconto}")

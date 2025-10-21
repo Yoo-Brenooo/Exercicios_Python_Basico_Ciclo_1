@@ -52,3 +52,31 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
+print("|------------------------------|")
+print("| Calculadora")
+print("|------------------------------|")
+print("| 1 - Soma")
+print("| 2 - Subtração")
+print("| 3 - Multiplicação")
+print("| 4 - Divisão")
+print("|------------------------------|")
+
+opcao = int(input("Digite uma das opções: "))
+x = int(input("Digite o primeiro numero: "))
+y = int(input("Digite o segundo numero: "))
+
+if opcao == 1:
+    resultado = x + y
+    print(f"Resultado: {resultado}")
+elif opcao == 2:
+    resultado = x - y
+    print(f"Resultado: {resultado}")
+elif opcao == 3:
+    resultado = x * y
+    print(f"Resultado: {resultado}")
+elif opcao == 4:
+    resultado = x / y
+    print(f"Resultado: {resultado}")
+else:
+    print("Opção Invalida!")

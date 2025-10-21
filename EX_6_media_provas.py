@@ -21,3 +21,22 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nome = input("Digite o nome do aluno: ")
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(" | ______________________________ |")
+print(" | SISTEMA DE PROVAS")
+print(" | ______________________________ |")
+print(f" | Nome do aluno: {nome}")
+print(f" | Nota da primeira prova: {nota1}")
+print(f" | Nota da segunda prova: {nota2}")
+print(f" | Nota da terceira prova: {nota3}")
+print(" | ______________________________ |")
+print(f" | Aluno: {nome} ")
+print(f" | Média: {media}")
+print(" | Aluno aprovado")
+print(" | ______________________________ |")
